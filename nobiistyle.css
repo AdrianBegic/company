@@ -31,6 +31,7 @@ body {
     background: #f7f7f7;
 }
 
+
 /*
   Header
 */
@@ -66,7 +67,6 @@ body {
 .header.small {
     line-height: 50px;
     box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
-
 }
 
 .header.small>#logo {
@@ -152,8 +152,6 @@ h2.top-ready-p {
     float: left;
     width: 50px;
     padding: 5px;
-
-
 }
 
 .brand a,
@@ -177,7 +175,6 @@ nav ul {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-
 }
 
 nav ul li {
@@ -224,7 +221,9 @@ nav ul li ul li a {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
+
 /* Mobile navigation */
+
 .nav-mobile {
     display: none;
     position: absolute;
@@ -239,29 +238,23 @@ nav ul li ul li a {
     .nav-mobile {
         display: block;
     }
-
     nav {
         width: 100%;
         padding: 0px 0 15px;
     }
-
     nav ul {
         display: none;
     }
-
     nav ul li {
         float: none;
     }
-
     nav ul li a {
         padding: 15px;
         line-height: 20px;
     }
-
     nav ul li ul li a {
         padding-left: 30px;
     }
-
     .nav-dropdown {
         position: static;
     }
@@ -321,8 +314,6 @@ nav ul li ul li a {
 }
 
 
-
-
 /*
   Slider
 */
@@ -331,14 +322,12 @@ nav ul li ul li a {
     height: 400px;
 }
 
-
 #headerimg {
     display: inline-block;
     float: right;
     width: 400px;
     margin-top: 10%;
 }
-
 
 .aboutimg {
     display: inline-block;
@@ -364,7 +353,6 @@ nav ul li ul li a {
     text-decoration: none;
 }
 
-
 .footerimg {
     width: 80px;
     margin-left: 19%;
@@ -389,11 +377,10 @@ nav ul li ul li a {
     text-align: center;
 }
 
-
-
 h1 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
 }
 
 h1.hero {
@@ -443,6 +430,7 @@ h1.feature {
     background: rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
+
 
 /* 
   Columns 
@@ -538,6 +526,7 @@ h1.feature {
     display: none;
 }
 
+
 /*
   Column specifics
 */
@@ -590,11 +579,11 @@ h1.feature {
     cursor: pointer;
 }
 
-
 .col span.feature {
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 /*
   Text
@@ -637,6 +626,7 @@ h2 {
     display: none !important;
 }
 
+
 /* 
   Slider with Content
 */
@@ -649,6 +639,7 @@ h2 {
     color: #000;
 }
 
+
 /*
   Responsive
 */
@@ -660,8 +651,6 @@ h2 {
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-
 form {
     float: left;
     max-width: 50%;
@@ -717,17 +706,14 @@ textarea {
     opacity: 50%;
 }
 
-
 @media all and (max-width: 768px) {
     .container {
         width: 95%;
     }
-
     .col.four {
         width: 48%;
         margin: 1%;
     }
-
     .col.three {
         display: block;
         width: 95%;
@@ -735,7 +721,6 @@ textarea {
         margin: 0 auto;
         float: none;
     }
-
     .col .imgholder {
         display: hiddem;
         height: 300px;
@@ -745,19 +730,16 @@ textarea {
         box-shadow: 10px 10px #E8E5DA;
         border-radius: 15px;
     }
-    
     #imgOW {
         width: 100%;
         height: 300px;
         border-radius: 15px;
     }
-
     .header {
         height: auto;
         background: #eee;
         opacity: 100%;
     }
-
     #logo {
         position: absolute;
         float: left;
@@ -765,42 +747,33 @@ textarea {
         width: 40px;
         margin-left: 5px;
     }
-
     #logoimg {
         width: 60px;
         padding: 10px;
         opacity: 100%;
         display: none;
     }
-
-
-
     form {
         padding: 10px;
         margin: 0 auto;
         max-width: 100%;
     }
-
     img.aboutimg {
         max-width: 300px;
         padding: 0;
     }
-
     img.section-two-left {
         max-width: 380px;
         padding: 0;
     }
-
     p.about {
         font-size: 20px;
         text-align: center;
     }
-
     .col.three.bg.nopad.pointer {
         max-width: 80%;
         padding: 20px;
     }
-
     .col.two {
         width: 90%;
         margin: 2.5% 2.5%;
@@ -812,17 +785,14 @@ textarea {
     .container {
         width: 750px;
     }
-
     form {
         max-width: 300px;
         padding-left: 50px;
     }
-
     img.aboutimg {
         max-width: 300px;
     }
-
-   div.footer h1 {
+    div.footer h1 {
         font-size: 1rem;
     }
 }
@@ -837,34 +807,29 @@ textarea {
     .container {
         width: 1170px;
     }
-
     form {
         max-width: 500px;
         padding-left: 20%;
     }
-
     img.aboutimg {
         max-width: none;
     }
-
     div.footer h1 {
         font-size: 2rem;
     }
 }
 
 @media all and (min-width: 1500px) {
-    
     form {
         max-width: 50%;
         padding-left: 20%;
     }
-
     img.aboutimg {
         max-width: none;
     }
 }
-@media all and (max-width:450px) {
 
+@media all and (max-width:450px) {
     .col,
     .col.four,
     .col.three,
@@ -875,12 +840,10 @@ textarea {
         margin: 0 auto;
         float: none;
     }
-
     .col.extrapad {
         padding: 1%;
         margin-bottom: 30px;
     }
-
     .group {
         display: none;
     }
@@ -920,15 +883,25 @@ textarea {
     -ms-filter: "alpha(opacity=100)";
 }
 
-#Home{scroll-margin-top:5rem;}
+#Home {
+    scroll-margin-top: 5rem;
+}
 
-#About-Us{scroll-margin-top:5rem;}
+#About-Us {
+    scroll-margin-top: 5rem;
+}
 
-#Services{scroll-margin-top:5rem;}
+#Services {
+    scroll-margin-top: 5rem;
+}
 
-#Our-Work{scroll-margin-top:5rem;}
+#Our-Work {
+    scroll-margin-top: 5rem;
+}
 
-#Contact-Us{scroll-margin-top:5rem;}
+#Contact-Us {
+    scroll-margin-top: 5rem;
+}
 
 html .njs-sticky-side.image_button_cover.placement-right {
     right: 0;
@@ -994,66 +967,66 @@ html .njs-sticky-side.image_button_cover a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-  
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
-  }
-  
-  .imgholder:hover .img__description_layer {
+}
+
+.imgholder:hover .img__description_layer {
     visibility: visible;
     opacity: 1;
-  }
-  
-  .img__description {
+}
+
+.img__description {
     transition: .2s;
     transform: translateY(1em);
-  }
-  
-  .imgholder:hover .img__description {
+}
+
+.imgholder:hover .img__description {
     transform: translateY(0);
-  }
+}
 
-
-  *, *:before, *:after {
+*,
+*:before,
+*:after {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-  }
-  
-  .services {
+}
+
+.services {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 30px;
-  }
-  
-  .section-lead {
+}
+
+.section-lead {
     max-width: 600px;
     margin: 1rem auto 1.5rem;
-  }
-  
-  .service a {
+}
+
+.service a {
     color: #0F7173;
     display: block;
-  }
-  
-  .service h4 {
+}
+
+.service h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #0F7173;
     font-size: 1.3rem;
     margin: 1rem 0 0.6rem;
-  }
-  
-  .services-grid {
+}
+
+.services-grid {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .service {
+}
+
+.service {
     background: #fff;
     margin: 20px;
     padding: 20px;
@@ -1068,67 +1041,67 @@ html .njs-sticky-side.image_button_cover a:hover {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  }
-  
-  .service:hover {
+}
+
+.service:hover {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
-  }
-  
-  .service i {
+}
+
+.service i {
     font-size: 3.45rem;
     margin: 1rem 0;
-  }
-  
-  .service1 i,
-  .service1 h4,
-  .service1 .cta {
+}
+
+.service1 i,
+.service1 h4,
+.service1 .cta {
     color: #0F7173;
-  }
-  
-  .service1:hover {
+}
+
+.service1:hover {
     border: 2px solid #0F7173;
-  }
-  
-  .service2 i,
-  .service2 h4,
-  .service2 .cta {
+}
+
+.service2 i,
+.service2 h4,
+.service2 .cta {
     color: #0F7173;
-  }
-  
-  .service2:hover {
+}
+
+.service2:hover {
     border: 2px solid #0F7173;
-  }
-  
-  .service3 i,
-  .service3 h4,
-  .service3 .cta {
+}
+
+.service3 i,
+.service3 h4,
+.service3 .cta {
     color: #0F7173;
-  }
-  
-  .service3:hover {
+}
+
+.service3:hover {
     border: 2px solid #0F7173;
-  }
-  
-  .service .cta span {
+}
+
+.service .cta span {
     font-size: 0.6rem;
-  }
-  
-  .service > * {
+}
+
+.service>* {
     flex: 1 1 100%;
-  }
-  
-  .service .cta {
+}
+
+.service .cta {
     align-self: flex-end;
-  }
-  
-  @media all and (max-width:900px) {
+}
+
+@media all and (max-width:900px) {
     .services-grid {
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      flex-direction: column;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
     }
-  }
+}
